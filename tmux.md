@@ -1,18 +1,13 @@
 ## Commands
 
-### Create new session
 ```
-tmux new -s cdk
-tmux new -s tasks
-```
-
-### List sessions
-```
-tmux ls
+tmux new -s cdk   new session
+tmux ls           list sessions
+tmux a -t cdk     Attach to a session
 ```
 
-### Attach to a session
+## Comtmands inside a session
 ```
-tmux a -t cdk
-tmux a -t tasks
+s   List sessions
+$   Name session
 ```
